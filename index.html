@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Us</title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="text">
+            <form action="/action_page.php">
+                <fieldset style="border: 2px solid lightgrey;">
+                <legend>We were love to hear!</legend>
+                <div class="container2">
+                    <label for="Email">Email</label>
+                    <input type="text" id="Email" name="Email" placeholder="Your Email...">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your name..">
+                    <label for="quantity">Number of visitors willing to travel</label>
+                    <input type="number" id="quantity" name="quantity" min="1"><br><br>
+                    <lable for="plases">What are the plases you like to Visit</lable>
+                    <table style="padding-top:5px; padding-bottom:10px;">
+                    <tr>
+                        <td><input type="checkbox" name="plases" value="Kalutara Bodhiya">Kandy</td>
+                        <td><input type="checkbox" name="plases" value="Kande Vihara">Galle</td>
+                        <td><input type="checkbox" name="plases" value="Pahiyangala (Fa-Hien) Caves">Jaffna</td>
+                        <td><input type="checkbox" name="plases" value="Barberyn Lighthouse Island Beruwala">Kalutara</td>                
+                    </tr>
+                    </table>
+                    <label for="reasons">Can you tell us why you were visiting us?</label>
+                    <select id="reasons" name="reasons">
+                        <option value="just browsing">Just browsing</option>
+                        <option value="wanted general information">Want Genaral information</option>
+                        <option value="want specific information">Want Specific information</option>
+                    </select>
+
+                    <label for="feedback">Did you find what you were looking for?</label><br><br>
+                    <input type="radio" name="feedback" value="yes,easily">Yes, easily<br>
+                    <input type="radio" name="feedback" value="yes,with some searching">Yes, with some searching<br>
+
+                    <label for="subject">Any Comments</label>
+                    <textarea id="subject" name="subject" placeholder="Write comments.." style="height:150px"></textarea>
+    
+                    <input type="submit" value="Send Message">
+                </div>
+                </fieldset>
+            </form>
+        </div>      
+    </body>
+</html> 

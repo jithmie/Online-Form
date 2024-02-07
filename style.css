@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Calibri;
+}
+/*adding styles for form*/
+form{
+    padding-left:150px;
+    padding-right:150px;
+}
+legend{
+    font-size: 20px;
+    color:red;
+}
+.container2{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin-left:10px;
+    margin-right:10px;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=submit]{
+    background-color:red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+td{
+    padding-left: 30px;
+}
+.text{
+    text-align:left;
+    text-transform:uppercase;
+    align-items:center;
+    color:black;
+    font-size: 15px;
+}
+
